@@ -42,41 +42,86 @@
 
     <main>
       <article id="about">
-        <h2 id="#about">About <u>TFS</u></h2>
+        <h2>About <abbr title="The Fuchka Shop">TFS</abbr></h2>
 
         <p>
-          <u>TFS</u> was founded in 2022. Our shop was built from a
-          <b>love of fuchkas</b>🧆🧆🧆. We hope our shop adds a unique and
-          interesting place to our little town.
+          <abbr title="The Fuchka Shop">TFS</abbr> was founded in
+          <time datetime="2024">2024</time>. Our shop was built from a
+          <strong>love of fuchkas</strong> 🧆🧆🧆. We hope our shop adds a
+          unique and interesting place to our little town.
         </p>
+
+        <aside>
+          <h3>Fuchka Trivia</h3>
+
+          <details>
+            <summary>When did fuchka first appear in Bangladesh ?</summary>
+            <p>
+              Fuchka have originated as early as the late medieval or early
+              modern period, in the Mughal or Sultanate era (circa 15th to 18th
+              century). It's presence in Bangladesh in its modern form likely
+              solidified in the early 20th century.
+            </p>
+          </details>
+        </aside>
       </article>
-
-      <h3>Fuchka Trivia</h3>
-
-      <details>
-        <summary>When did fuchka first appear in Bangladesh ?</summary>
-        <p>
-          Fuchka have originated as early as the late medieval or early modern
-          period, in the Mughal or Sultanate era (circa 15th to 18th century).
-          It's presence in Bangladesh in its modern form likely solidified in
-          the early 20th century.
-        </p>
-      </details>
 
       <hr />
 
-      <h2>Our Menu</h2>
+      <article id="menu">
+        <h2>Our Menu</h2>
 
-      <table>
-        <tr>
-          <td colspan="3">Our Fuchkas</td>
-        </tr>
-        <tr>
-          <th>Fuchkas</th>
-          <th>Qty</th>
-          <th>Price</th>
-        </tr>
-      </table>
+        <table>
+          <caption>
+            Our Fuchkas
+          </caption>
+          <thead>
+            <tr>
+              <th>Fuchkas</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="3">Crunchy</th>
+              <td>10</td>
+              <td>&#2547; 30</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>&#2547; 50</td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td>&#2547; 60</td>
+            </tr>
+            <tr>
+              <th scope="row" rowspan="3">Hard Spice</th>
+              <td>10</td>
+              <td>&#2547; 40</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>&#2547; 60</td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td>&#2547; 80</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Cold Drinks &#2547; 20</td>
+            </tr>
+          </tfoot>
+        </table>
+        <br />
+
+        <p>
+          <a href="#">Back to Top</a>
+        </p>
+      </article>
     </main>
 
     <footer>
